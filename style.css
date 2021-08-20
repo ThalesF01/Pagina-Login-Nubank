@@ -99,3 +99,12 @@ a
 a:hover{
     letter-spacing: 0.8px;
 }
+
+@media(max-width:740px){
+    main{
+        display: flex;
+        flex-direction: column;
+        
+        width: 87%;
+    }
+}
